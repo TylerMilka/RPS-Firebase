@@ -1,0 +1,22 @@
+body{
+ 	background-color: gray;
+ 	text-align: center;
+}
+
+.container{
+	padding: 0px;
+}
+
+#box{
+	border: solid;
+	border-color: blue;
+
+}
+
+.none {
+	display: none;
+}
+
+.floatright{
+	float: right;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RPS-Firebase</title>
+    <script src="https://www.gstatic.com/firebasejs/3.6.3/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="game.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="header" class="header">
+                    Rock, Paper, Scissors!
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class=" input-field col s6">
+                    <input placeholder="Name" id="player" type="text">
+                    <button class="btn btn-default" id="start">start </button>
+                </div>
+                      
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                 <div id="playerName"> </div>          
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div id="yourtunn">
+                    It's your turn!
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Boxes with game -->
+        <div class="row">
+            <div class="col s12">
+                <div class="row">
+                    <div class="col s4" id="box">
+                        <span>
+                      <div id="playerChoices">
+                        </span>
+                    </div>
+                </div>
+                <div class="col s4" id="box">
+                    <span> You Win</span>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div class="col s4" id="box">
+                    <span>
+                      <div id="playerChoices2">
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</body>
+
+</html>
